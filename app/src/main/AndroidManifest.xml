@@ -6,11 +6,11 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/mifoto"
+        android:label="Caja de Herramientas RD"
+        android:roundIcon="@mipmap/mifoto"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ToolboxApp">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         <activity
             android:name=".MainActivity"
