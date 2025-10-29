@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe un nombre"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/checkAgeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Predecir Edad"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/ageResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <ImageView
+        android:id="@+id/ageImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Imagen de edad" />
+</LinearLayout>
